@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #004a99;
+}
+
+a:hover {
+    color: #003366;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004a99;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Header Banner */
+.header-banner {
+    text-align: center;
+    padding: 20px 20px;
+    background: linear-gradient(120deg, #004a99, #0066cc);
+    color: white;
+}
+
+.qalam-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.q-logo {
+    width: 50px;
+    height: 50px;
+    background: #004a99;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.alam-text {
+    font-size:3em;
+    font-weight: bold;
+    color: darkblue;
+    letter-spacing: 1px;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #777;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    border-color: #004a99;
+    outline: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background: #004a99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-button:hover {
+    background: #003366;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer a {
+    color: #004a99;
+}
